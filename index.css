@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+.body{
+    height: 100vh;
+    width: 100%;
+    padding: 0 200px;
+}
+.body nav{
+    height: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+nav .logo{
+    height: 50px;
+    width: 20%;
+}
+nav .logo img{
+    height: 100%;
+    width: 100%;
+}
+nav ul{
+    width: 80%;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.post{
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.post .postf{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.post .postf .logo{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.post .postf .logo img{
+    height: 100%;
+    width: 20%;
+}
+.post .postf span{
+    width: 30%;
+    height: 50px;
+     font-size: 20px;
+}
+.post .postm{
+    height: 450px;
+    width: 100%;
+}
+.post .postm img{
+height: 100%;
+width: 100%;
+}
+.post .postl{
+    height: 40px;
+    width: 100%;
+    padding: 0 20px;
+}
+.post .postl ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post .postl ul li{
+    list-style: none;
+}
